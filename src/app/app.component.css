@@ -1,0 +1,11 @@
+.formgroup-inline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: blueviolet;
+    color: beige;
+}
