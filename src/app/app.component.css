@@ -6,6 +6,8 @@
 }
 
 main {
+    height: 100vh;
     background-color: blueviolet;
     color: beige;
+    /* margin-top: 10px; */
 }

@@ -1,132 +1,150 @@
-<main>
-  <div class="container text-center">
-    <div class="row">
-      <div class="col">
-        <img src="../assets/form.jpg" alt="" width="500" height="600" />
-      </div>
-      <div class="cadastro" class="col">
-        <h2>Cadastro</h2>
-        <form>
-          <div class="formgroup-inline">
-            <div class="row g-3">
-              <div class="col">
-                <label for="">Nome</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Nome"
-                  aria-label="First name"
-                />
-              </div>
-              <div class="col">
-                <label for="">Sobrenome</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Sobrenome"
-                  aria-label="Sobrenome"
-                />
-              </div>
-              <div class="row mb-3 text-center">
-                <label for="email" class="label">Email</label>
-                <input
-                  id="email"
-                  type="text"
-                  class="form-control"
-                  placeholder="Email"
-                  aria-label="Email"
-                />
-              </div>
-              <div class="row mb-3 text-center">
-                <label for="senha" class="label">Senha</label>
-                <input
-                  id="senha"
-                  type="password"
-                  class="form-control"
-                  placeholder="Senha"
-                  aria-label="Senha"
-                />
-              </div>
-              <div class="row mb-3 text-center">
-                <label for="idade" class="label">Idade</label>
-                <input
-                  id="idade"
-                  type="number"
-                  placeholder="Idade"
-                  class="form-control"
-                  aria-label="Idade"
-                />
-              </div>
-              <div>
-                <label for="">Mora em Santa Catarina?</label>
-                <select class="form-select" aria-label="Default select example">
-                  <option selected>Escolha a opção</option>
-                  <option value="1">Sim</option>
-                  <option value="2">Não</option>
-                </select>
-              </div>
-              <div class="checkbox">
-                <h3>Tecnologias conhecidas</h3>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="flexCheckDefault"
-                  />
-                  <label class="form-check-label" for="flexCheckDefault">
-                    Angular
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="flexCheckChecked"
-                  />
-                  <label class="form-check-label" for="flexCheckChecked">
-                    C#
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="flexCheckChecked"
-                  />
-                  <label class="form-check-label" for="flexCheckChecked">
-                    Typescript
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="flexCheckChecked"
-                  />
-                  <label class="form-check-label" for="flexCheckChecked">
-                    Git
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input
-                    class="form-check-input"
-                    type="checkbox"
-                    value=""
-                    id="flexCheckChecked"
-                  />
-                  <label class="form-check-label" for="flexCheckChecked">
-                    .Net
-                  </label>
-                </div>
-              </div>
-            </div>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+</head>
+<body>
+  <main>
+    <div class="geral">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <img src="../assets/form.jpg" alt="" width="500" height="600" />
           </div>
-        </form>
+          <div class="cadastro" class="col">
+            <h2>Cadastro</h2>
+            <form>
+              <div class="formgroup-inline">
+                <div class="row g-3">
+                  <div class="col">
+                    <label for="">Nome</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Nome"
+                      aria-label="First name"
+                    />
+                  </div>
+                  <div class="col">
+                    <label for="">Sobrenome</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Sobrenome"
+                      aria-label="Sobrenome"
+                    />
+                  </div>
+                  <div class="row mb-3 text-center">
+                    <label for="email" class="label">Email</label>
+                    <input
+                      id="email"
+                      type="text"
+                      class="form-control"
+                      placeholder="Email"
+                      aria-label="Email"
+                    />
+                  </div>
+                  <div class="row mb-3 text-center">
+                    <label for="senha" class="label">Senha</label>
+                    <input
+                      id="senha"
+                      type="password"
+                      class="form-control"
+                      placeholder="Senha"
+                      aria-label="Senha"
+                    />
+                  </div>
+                  <div class="row mb-3 text-center">
+                    <label for="idade" class="label">Idade</label>
+                    <input
+                      id="idade"
+                      type="number"
+                      placeholder="Idade"
+                      class="form-control"
+                      aria-label="Idade"
+                    />
+                  </div>
+                  <div>
+                    <label for="">Mora em Santa Catarina?</label>
+                    <select
+                      class="form-select"
+                      aria-label="Default select example"
+                    >
+                      <option selected>Escolha a opção</option>
+                      <option value="1">Sim</option>
+                      <option value="2">Não</option>
+                    </select>
+                  </div>
+                  <div class="checkbox">
+                    <h3>Tecnologias conhecidas</h3>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckDefault"
+                      />
+                      <label class="form-check-label" for="flexCheckDefault">
+                        Angular
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckChecked"
+                      />
+                      <label class="form-check-label" for="flexCheckChecked">
+                        C#
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckChecked"
+                      />
+                      <label class="form-check-label" for="flexCheckChecked">
+                        Typescript
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckChecked"
+                      />
+                      <label class="form-check-label" for="flexCheckChecked">
+                        Git
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        value=""
+                        id="flexCheckChecked"
+                      />
+                      <label class="form-check-label" for="flexCheckChecked">
+                        .Net
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</main>
+  </main>
+  
+  
+</body>
+</html>
